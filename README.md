@@ -19,7 +19,7 @@ Running Migrations
 
     java -jar mongomigrate.jar migrate TestDatabase
 
-This is apply all the migration files in the current folder to the TestDatabase on your local mongo instance. There are additional arguments you can use to specify the folder containing the migrations and the target mongo server.
+This will apply all the migration files in the current folder to the TestDatabase on your local mongo instance. There are additional arguments you can use to specify the folder containing the migrations and the target mongo server.
 
 How does it work?
 -----------------
